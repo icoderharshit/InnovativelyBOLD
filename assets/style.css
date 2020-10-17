@@ -1,7 +1,52 @@
+html,body{
+    scroll-behavior: smooth;
+}
 body{
     height: 100vh;
     background: #0f0c29;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+}
+nav li{
+    font-size: 17px;
+    text-transform: uppercase;
+    transition: ease-in 0.1s;
+}
+.collapse a{
+    text-decoration: none;
+    color: white !important;
+}
+.collapse a:hover{
+    opacity: 0.6;
+}
+nav li:hover{
+    color: white;
+}
+#txt{
+width: 70vw;
+height: 40px;
+border-radius: 100px;
+}
+.carousel img{
+height: 92vh;
+width: 100vw;
+}
+#search{
+    height: 30vh;
+}
+#lyrics{
+    height: 70vh;
+}
+#search h1{
+    letter-spacing: 2px;
+    color: bisque;
+}
+form{
+    margin-top: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+form button{
+    width: 110px;
+    font-size: 20px !important;
 }
